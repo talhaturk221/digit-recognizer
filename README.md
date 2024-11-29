@@ -33,11 +33,11 @@ python src/digit_recognition.py
 
 ### 4. **Sonuçlar ve Çıktılar**
 Eğitim ve test süreci sonunda, aşağıdaki çıktılar gözlemlenecektir:
--**Doğruluk Oranları**: Lojistik Regresyon ve CNN doğruluk oranlarını gösterir.
--**Eğitim Görselleri**: Eğitim verilerin görselleri.
+- **Doğruluk Oranları**: Lojistik Regresyon ve CNN doğruluk oranlarını gösterir.
+- **Eğitim Görselleri**: Eğitim verilerin görselleri.
 - **Yanlış Tahmin Görselleri**: Lojistik Regresyon ve CNN modellerinin yanlış tahmin ettiği görseller.
 - **Eğitim Doğruluğu ve Kayıplar Grafikleri**: CNN modelinin eğitim doğruluğu ve kayıp değerleri.
-- 
+ 
 
 ### 5. **Teknik Detaylar**
 - **Lojistik Regresyon**: Bu model, 28x28'lik görselleri düzleştirerek (flatten) kullanır ve basit bir doğrusal sınıflandırıcı olarak çalışır.
